@@ -1,0 +1,893 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'roboto',sans-serif;
+    /* text-transform: capitalize; */
+}
+/* body{
+    height: 15000px;
+} */
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.rel{
+    position: relative;
+}
+.space{
+    justify-content: space-between;
+}
+.pad1{
+    padding: 10px 0px;
+}
+.pad2{
+    padding: 12px 0px;
+}
+.pad3{
+    padding: 150px 0px;
+}
+.pad4{
+    padding: 30px;
+}
+.pad7{
+    padding: 70px 0px 60px;
+}
+.mar1 a{
+    margin: 0px 0px 0px 12px;
+}
+.mar2 a{
+    margin: 0px 0px 0px 24px;
+}
+.coll1{
+    background-color: #106eea;
+}
+.coll2{
+    background-color: white;
+}
+.start{
+    justify-content: start;
+    display: flex;
+}
+.center:not(.price sub){
+    justify-content: center;
+    display: flex;
+}
+.end{
+    justify-content: end;
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+.flex-warp{
+    flex-wrap: wrap;
+}
+.icon1 li a{
+    color: white;
+}
+.icon1 li a i{
+    margin: 0px 5px 0px 0px;
+    font-size: 16px;
+}
+.icon2 li a{
+    color: #b8d4f9;
+    margin: 0px 0px 0px 20px;
+    font-size: 16px;
+}
+.icon2 li a:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.logo a{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.logo a span{
+    color: #106eea;
+    font-size: 32px;
+}
+.menu ul li a:hover{
+    color: #106eea;
+    transition: all 0.5s;
+}
+.menu ul li{
+    padding: 10px 10px 0px 28px;
+    font-weight: 600;
+}
+.menu ul li a{
+    padding: 0px 3px;
+    font-size: 15px;
+    color: #222222;
+}
+.menu1{
+    padding: 0px 0px 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.menu ul li ul li a{
+    display: block;
+    padding: 10px 20px;
+}
+.w-1140 ul li:hover .menu1{
+    display: block;
+}
+.menu2{
+    position: absolute;
+    left: -100%;
+    top: 20%;
+    display: none;
+    background-color: white;
+}
+.w-1140 ul li ul li:hover .menu2{
+    display: block;
+}
+.img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 200vh; */
+    background-image: url(/IMAGE/BizLand/1.jpeg);
+}
+.s-48{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+}
+.s-48-blue{
+    font-weight: 700;
+    color: #106eea;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+}
+.script1{
+    color: #555555;
+    font-size: 24px;
+    margin: 5px 0px 30px;
+}
+.button1 button{
+    border-radius: 4px;
+    padding: 10px 28px;
+    color: white;
+    border: 0px solid white;
+    background-color: #106eea;
+}
+.button2 i{
+    font-size: 30px;
+    color: #106eea;
+    margin: 0px 0px 0px 25px;
+}
+.button2 a{
+    font-size: 16px;
+    color: #222222;
+    font-weight: 600;
+    padding: 7px 10px;
+    display: block;
+}
+.hover:hover{
+    color: #106eea;
+    transition: all 0.5s;
+}
+.font1 i{
+    font-size: 48px;
+    color: #106eea;
+    margin: 0px 0px 15px;
+}
+.font2-1{
+    margin: 0px 0px 15px;
+}
+.font2-2{
+    color: #111111;
+    font-size: 18px;
+}
+.font3{
+    color: #444444;
+    font-size: 15px;
+    line-height: 28px;
+    /* word-spacing: 20px; */
+}
+.w-25{
+    width: calc(25% - 24px);
+    padding: 0px 12px;
+    border-radius: 8px;
+}
+.box{
+    background-color: white;
+    padding: 30px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+}
+.box:hover .font1 i{
+    color: white;
+}
+.box:hover .font2-1 a{
+    color: white;
+}
+.box:hover .font3{
+    color: white;
+}
+.box:hover{
+    background-color: #106eea;
+    transition: all 0.3s ease-in;
+}
+.coll3{
+    background-color: #fefefe;
+}
+.pad5{
+    padding: 60px 0px;
+}
+.coll4{
+    
+    background-color: #f6f9fe;
+    padding: 60px 0px;
+}
+.button3{
+    letter-spacing: 2px;
+    border-radius: 20px;
+    background-color: #e7f1fd;
+    border: 0px solid white;
+}
+.button3 a{
+    padding: 8px 20px;
+    color: #106eea;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+}
+.s-32{
+    margin: 15px 0px 0px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+.s-32-blue{
+    margin: 15px 0px 0px;
+    font-weight: 700;
+    color: #106eea;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+.font4{
+    color: #444444;
+    font-size: 16px;
+    margin: 15px 0px 0px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 0px 0px 30px;
+}
+.w-50{
+    width: 50%;
+}
+.img1{
+    background-image: url(/IMAGE/BizLand/2.jpg);
+    background-size: cover;
+    height: 546px;
+}
+.m-12{
+    padding: 0px 12px;
+}
+.s-26{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0px 0px 8px;
+}
+.s-16{
+    font-size: 16px;
+    color: #444444;
+    margin: 0px 0px 16px;
+    font-style: italic;
+}
+.marr{
+    margin: 35px 0px;
+}
+.mar3 i{
+    padding: 20px;
+    font-size: 18px;
+    color: #106eea;
+}
+.mar3 button{
+    margin: 0px 15px 0px 0px;
+    border-radius: 255px;
+    background-color: white;
+    border: 0px solid white;
+    box-shadow: 0px 0px 5px #ccc;
+}
+.font5{
+    font-size: 18px;
+    color: #555555;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+}
+.font6{
+    font-size: 15px;
+    color: #444444;
+}
+.mar4{
+    margin: 0px 0px 16px;
+}
+.font7{
+    font-size: 16px;
+    color: #444444;
+    line-height: 30px;
+    font-weight: 500;
+}
+.m-5{
+    padding: 5px 12px;
+}
+.coll5{
+    background-color: #ffffff;
+}
+.font8{
+    font-size: 12px;
+    color: #222222;
+    font-weight: 600;
+}
+.li-100{
+    margin-top: 6px;
+    width: 100%;
+    height: 10px;
+    background-color: #e2eefd;
+}
+.li-ran{
+    margin-top: 6px;
+    height: 10px;
+    background-color: #106eea;
+}
+.pad6{
+    margin-bottom: 24px;
+}
+.circle2 i{
+    padding: 10px;
+    color: white;
+    border: 0px solid white;
+    background-color: #106eea;
+    border-radius: 255;
+}
+.circle1 i{
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.box1{
+    padding: 40px 30px;
+    overflow: hidden;
+    background: #e6edf8;
+    /* transition: all 0.3s ease-in-out; */
+    /* padding: 5px 0px; */
+}
+.circle1{
+    position: absolute;
+    background-color: #106eea;
+    border: 3px solid white;
+    border-radius: 255px;
+    left: calc(50% - 24px);
+    top: calc(0% - 24px);
+}
+.z-index button{
+    display: block;
+}
+.font9{
+    color: #062B5B;
+    font-size: 36px;
+}
+.font10{
+    font-size: 14px;
+    color: #444444;
+}
+.w-166{
+    width: 166px;
+    padding: 0px 12px;
+}
+.pad8{
+    padding: 20px 0px;
+}
+.i img{
+    max-width: 45%;
+    background-size: cover;
+}
+.i img:hover{
+    transform: scale(1.1);
+}
+.coll6{
+    background-color: #f1f6fe;
+}
+.circle2 button a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    border-radius: 50px;
+}
+.w-33{
+    width: calc(33.33% - 24px);
+}
+.circle2 button{
+    border: 0px solid #ccc;
+    border-radius: 40px;
+}
+.box2{
+    border: 1px solid #ecf4fd;
+    background-color: white;
+}
+.icon3 button{
+    border: 0px solid #eaf2fd;
+}
+.font11 i{
+    font-size: 28px;
+    color: #3b81f2;
+    padding: 12px;
+    background-color: #f1f6fe;
+}
+.pad9{
+    padding: 80px 20px;
+}
+.icon3{
+    padding: 0px 0px 20px;
+}
+.script2{
+    font-size: 24px;
+    color: #222222;
+    margin: 0px 0px 15px;
+    font-weight: 600;
+}
+.script3{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+.pad9:hover{
+    box-shadow: 0px 0px 5px #ccc;
+    transition: all 1s ease;
+}
+.m-24{
+    margin: 24px 0px 0px;
+}
+.img2{
+    position: relative;
+    background-image: url(/IMAGE/BizLand/3.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 451px;
+}
+.img2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.button4{   
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* border: 3px solid #ccc; */
+    border: 6px solid rgba( 255, 255, 255, 0.15);
+    margin: 90px 0px 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.button4 img{
+    height: 100%;
+    width: 100%;
+}
+.page{
+    position: absolute;
+    top: 0;
+}
+.font12{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 10px 0px 5px;
+}
+.font13{
+    margin: 0px 0px 15px;
+    font-size: 14px;
+    color: #dddddd;
+}
+.font14{
+    color: #eeeeee;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.font15{
+    color: rgba(255, 255, 255, 0.15);
+    margin: 20px 0px 0px;
+}
+.font15 i{
+    margin: 0px 4px;
+}
+.sp{
+    margin-top: 90px;
+}
+.font16{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rebeccapurple;
+    font-weight: 600;
+}
+.font17 li a{
+    font-size: 16px;
+    color: #444444;
+    margin: 0px 0px 5px;
+    padding: 10px 15px 8px;
+    font-weight: 600;
+}
+.font17{
+    margin-bottom: 20px;
+}
+.app1{
+    background-image: url(/IMAGE/BizLand/app1.jpg);
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.app3{
+    background-image: url(/IMAGE/BizLand/app3.jpg);
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.web1{
+    background-image: url(/IMAGE/BizLand/web1.jpg);
+    width: 100%;
+    height: 239px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.web2{
+    background-image: url(/IMAGE/BizLand/web2.jpg);
+    width: 100%;
+    height: 532px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.web3{
+    background-image: url(/IMAGE/BizLand/web3.jpg);
+    width: 100%;
+    height: 237px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.app2{
+    background-image: url(/IMAGE/BizLand/app2.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.card2{
+    background-image: url(/IMAGE/BizLand/card2.jpg);
+    width: 100%;
+    height: 235px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.card1{
+    background-image: url(/IMAGE/BizLand/card1.jpg);
+    width: 100%;
+    height: 231px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.card3{
+    background-image: url(/IMAGE/BizLand/card3.jpg);
+    width: 100%;
+    height: 237px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.font18{
+    width: calc(320px - 24px);
+    font-size: 18px;
+    color: #222222;
+    margin: 0px 0px 8px;
+}
+.end1{
+    position: absolute;
+    left: 15px;
+    bottom: calc(0% + 15px);
+}
+.bg-ccc{
+    background-color: rgba( 255, 255, 255, 0.9);
+}
+.font19 i{
+    margin:     4px;
+}
+.font19{
+    position: absolute;
+    right: calc(0% + 40px);
+    top: 30px;
+}
+.p-15{
+    padding: 15px;
+}
+.font20{
+    font-size: 14px;
+    color: #555555;
+    margin-top: 5px;
+}
+.none{
+    display: none;
+}
+.block:hover .none{
+    display: block;
+}
+.w25{
+    width: calc(25% - 24px);
+}
+.box3{
+       border: 0px solid #ccc;
+       box-shadow: 0px 0px 10px #d8e7ff;
+       border-radius: 4px;
+       overflow: hidden;
+}
+.team1{
+    width: 100%;
+    height: 261px;
+    background-size: cover;
+    background-image: url(/IMAGE/BizLand/team-1.jpg);
+}
+.team2{
+    width: 100%;
+    height: 261px;
+    background-size: cover;
+    background-image: url(/IMAGE/BizLand/team-2.jpg);
+}
+.team3{
+    width: 100%;
+    height: 261px;
+    background-size: cover;
+    background-image: url(/IMAGE/BizLand/team-3.jpg);
+}
+.team4{
+    width: 100%;
+    height: 261px;
+    background-size: cover;
+    background-image: url(/IMAGE/BizLand/team-4.jpg);
+}
+.about{
+    background-color: white;
+    padding: 25px 15px;
+}
+.font21{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    margin: 0px 0px 5px;
+}
+.font22{
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.logo1{
+    position: absolute;
+    bottom: 0;
+    left: 30;
+    padding: 15px 45px;
+    transition: all 3s ease-in-out;
+}
+.logo1 li button{
+    margin: 0px 6px;
+    padding: 11px 7px 7px;
+    border: 0px solid #ccc;
+    background-color: #106eeacc;
+    border-radius: 4px;
+}
+.logo1 li button i{
+    font-size: 18px;
+    color: #ffffff;
+}
+.none{
+    display: none;
+}
+.box3:hover .none{
+    display: block;
+}
+.p-50{
+    padding: 50px 0px;
+}
+.font23{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+}
+.font24{
+    color: #444444;
+    margin: 0px 0px 16px;
+    font-size: 15px;
+}
+.name{
+    width: calc(100% - 18px);
+    padding: 4px 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+}
+.name1{
+    width: 100%;
+}
+.sub button{
+    padding: 0px 20px;
+    background-color: #106eea;
+    height: 100%;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 0px solid #106eea;
+}
+.sub{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+.coll7{
+    background-color: #f1f6fe;
+}
+.m-30{
+    margin: 0px 0px 30px;
+}
+.logo2{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 15px;
+    padding: 2px 0px;
+}
+.logo2 span{
+    color: #106eea;
+    font-size: 24px;
+}
+.p-60-30{
+    padding: 60px 0px 30px;
+}
+.font25{
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+}
+.font26{
+    font-size: 16px;
+    padding: 0px 0px 12px;
+    margin: 0px 0px 8px;
+    color: #444444;
+    font-weight: 600;
+}
+.font27 i{
+    margin-right: 5px;
+    color: #106eea;
+    font-size: 13px;
+}
+.font27{
+    color: #777777;
+    padding: 10px 0px;
+}
+.font27:hover{
+    color: #106eea;
+    transition: all 0.5s ease-in;
+}
+.logo3{
+    margin: 16px 0px 0px;
+}
+.logo3 ul li a i{
+    padding: 8px 8px;
+    font-size: 18px;
+    color: white;
+}
+.logo3 ul li button{
+    margin: 0px 8px 0px 0px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    background-color: #106eea;
+}
+.end{
+    position: absolute;
+    right: 0;
+}
+.p-24-12{
+    padding: 24px 12px;
+}
+.start p{
+    color: #444444;
+}
+.end p{
+    color: #444444;
+}
+.m-20{
+    padding: 0px 0px 20px;
+}
+.box4{
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+    overflow: hidden;
+}
+.b4-1{
+    background-color: #f8f8f8;
+    padding: 20px 15px;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 600;
+    margin: 0px -20px 20px;  
+}
+.b4-2{
+    background-color: #ffffff;
+}
+.price{
+    color: #106eea;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+.al-c{
+    text-align: center;
+}
+.ul1 li:not(.str){
+    padding: 0px 0px 16px;
+    color: #444444;
+}
+.price sup{
+    font-weight: 600;
+    color: #106eea;
+    font-size: 20px;
+}
+.price sub{
+    font-weight: 600;
+    color: #bababa;
+    font-size: 16px;
+    
+}
+.str{
+    padding: 0px 0px 16px;
+    text-decoration: line-through;
+    color: #ccc;
+}
+.b4-3{
+    background-color: #f8f8f8;
+    padding: 20px 15px;
+    margin: 20px -20px 0px;
+}
+.b4-3 button{
+    padding: 8px 35px 10px;
+    background-color: #106eea;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+}
+.b4-3 button a{
+    color: #ffffff;
+    font-weight: 600;
+}
+.b4-1-1{
+    background-color: #106eea;
+    padding: 20px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px -20px 20px;  
+}   
