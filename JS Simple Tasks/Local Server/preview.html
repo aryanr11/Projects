@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preview</title>
+    </head>
+    <body>
+
+        <table width="50%">
+            <tr>
+                <td><p>Name</p></td>
+                <td><p id="name"></p></td>
+            </tr>
+            <tr>
+                <td><p>Mobile</p></td>
+                <td><p id="mobile"></p></td>
+            </tr>
+            <tr>
+                <td><p>E-mail</p></td>
+                <td><p id="email"></p></td>
+            </tr>
+            <tr>
+                <td><p>Password</p></td>
+                <td><p id="pass"></p></td>
+            </tr>
+        </table>
+
+        <script>
+
+        var a = localStorage.getItem('name')
+        var b = localStorage.getItem('mobile')
+        var c = localStorage.getItem('email')
+        var d = localStorage.getItem('pass')
+        document.getElementById('name').innerHTML = a
+        document.getElementById('mobile').innerHTML = b
+        document.getElementById('email').innerHTML = c
+        document.getElementById('pass').innerHTML = d
+
+    </script>
+    </body>
+</html>

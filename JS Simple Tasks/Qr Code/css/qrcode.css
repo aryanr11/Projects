@@ -1,0 +1,18 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: #1d1d1d !important;
+}
+.inputt{
+    border-radius: 10px;
+    border: 0px;
+}
+.create{
+    margin-left: 10px;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 0px;
+    border-radius: 10px;
+}

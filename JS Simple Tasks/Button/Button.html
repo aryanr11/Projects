@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+        }
+    </style>
+
+</head>
+<body>
+        <p id="b"></p>
+        <button id="b1">Click Me</button>
+      
+        <script>
+
+          const a = document.getElementById("b");
+          const btn = document.getElementById("b1");
+
+          btn.onclick = function () {
+
+            if(a.style.width !== "100px"){
+                a.style.width = '100px';
+                a.style.height = '100px';
+                a.style.transition = '0.5s';
+            }
+
+            else {
+                a.style.width = '300px';
+                a.style.height = '300px';
+                a.style.transition = '0.5s';
+            }
+
+          }
+        </script>
+</body>
+</html>

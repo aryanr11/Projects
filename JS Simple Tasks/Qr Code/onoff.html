@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Off</title>
+    <style>
+        .w-100{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box{
+            width: 130px;
+            height: 69px;
+            border-radius: 50px;
+            border: 10px solid black;
+            background-color: black;
+            box-shadow: 0px 0px 60px rgb(62, 62, 62);
+            text-transform: uppercase;
+            line-height: 69px;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 0px 20px;
+            position: relative;
+            color: white;
+            display: flex;
+            justify-content: end;
+            text-shadow: 0px 0px 7px black;
+        }
+        .on{
+            text-align: end;
+            order: 2;
+        }
+        .off{
+            text-align: start;
+            order: 1;
+            display: none;
+        }
+        .circol{
+            cursor: pointer;
+            width: 69px;
+            height: 69px;
+            border-radius: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body bgcolor="black">
+
+    <div class="w-100">
+        <div class="box" id="p1">
+            <div class="on" id="on">on</div>
+            <div class="off" id="off">off</div>
+            <div class="circol" id="p2" onclick="start()"></div>
+            
+        </div>
+    </div>
+
+    <script>
+        var a = document.getElementById('p2'), b = document.getElementById('p1'),on = document.getElementById('on'),off = document.getElementById('off')
+        var i = 0
+        function start(){
+            i++
+            if(i%2 == 1){
+                b.style.backgroundColor = "white"
+                b.style.justifyContent = "start"
+                b.style.transition = "0.8s"
+                a.style.left = "60%"
+                a.style.backgroundColor = "black"
+                a.style.transition = "0.5s"
+                off.style.display = "block"
+                on.style.display = "none"
+            }
+            else{
+                b.style.backgroundColor = "black"
+                b.style.justifyContent = "end"
+                b.style.transition = "0.8s"
+                a.style.left = "0%"
+                a.style.backgroundColor = "white"
+                a.style.transition = "0.5s"
+                off.style.display = "none"
+                on.style.display = "block"
+            }
+        }
+    </script>
+    
+</body>
+</html>
