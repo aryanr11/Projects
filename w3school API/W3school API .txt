@@ -1,0 +1,10 @@
+W3school API :
+
+
+admin -> signup login crud
+
+user -> signup login crud
+
+courses = crud
+
+content = crud
