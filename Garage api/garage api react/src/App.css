@@ -1,0 +1,222 @@
+* {
+    text-decoration: none !important;
+    /* font-family: 'Roboto', sans-serif !important; */
+    font-family: "Playfair Display", serif;
+    list-style: none;
+       box-sizing: content-box;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - -  Garage */
+
+.bg-lite {
+    background-color: #000000;
+}
+.text-color{
+    color: #929090 !important;
+}
+/* .box{
+    background-color: #fc3d5336;
+    border: dashed #fc3d54;
+} */
+
+.fs-18 {
+    font-size: 18px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.f-color {
+    color: #000000c7;
+    font-weight: 500 !important;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: calc(33.33333333% - 32px) !important;
+}
+
+.bor {
+    border-radius: 10px 10px 10px 10px !important;
+    overflow: hidden;
+  
+}
+
+.details:hover {
+    cursor: pointer;
+    color: #1B1A55 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-1 {
+    width: 500px;
+    /* height: 600px; */
+    border: 1px solid #d3071f   ;
+    background-color: #000000;
+    color: #d3071f;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px #7FC7D9; */
+    padding: 30px;
+}
+.in-gov{
+    border:  1px solid #d3071f;
+}
+.ptb{
+    padding: 70px 0;
+}
+
+.button {
+    width: 20%;
+    background-color: #d3071f;
+    border-radius: 10px !important;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+Form span {
+    color: #d3071f;
+}
+
+/* .img-box {
+    cursor: pointer;
+    transform: scale(1);
+    overflow: hidden;
+    height: 300px !important;
+} */
+
+.img-box {
+    overflow: hidden;
+    height: 300px !important;
+	filter: grayscale(100%);
+	transition: .5s ease-in-out;
+}
+.box:hover .img-box{
+    filter: grayscale(0);
+    /* transform: scale(1.2);
+    overflow: hidden; */
+    transition: .5s ease-in-out;
+}
+
+.box {
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+.box:hover {
+    box-shadow: 0px 0px 20px rgb(160, 158, 158) !important;
+    transition: all .5s ease-in-out;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.card-icon {
+    background-color: #fff;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    right: 20px;
+    padding: 12px;
+}
+.icon-color{
+    color: #d3071f;
+}
+.service {
+    background-color: #d3071f;
+    color: white !important;
+    padding: 10px;
+}
+
+.service:hover {
+    background-color: #f85467;
+    transition: all 0.3s ease-in-out;
+}
+
+.hov:hover {
+    color: #d3071f !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.pos-sticky {
+    position: sticky;
+    z-index: 999;
+}
+
+
+.line-word{
+    line-height: 30px;
+    /* word-spacing: 10px 10px; */
+}
+.pos-ab{
+    position: absolute;
+    top: 60%;
+}
+.black-box{
+    background: #000000b6;
+    width: 40%;
+}
+.bn-btn{
+    background-color: #d3071f;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.bn-btn:hover{
+    background-color: #f7142e;
+    transition: all 0.5s ease-in-out;
+}
+.pos-about{
+    position: absolute;
+    top: 153px;
+    left: 156px;
+}
+.red-card{
+    background-color: #d3071f;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.red-card:hover{
+    transform: translate3d(0px, -15px, 0.01px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-in-out;
+
+}
+.box-card{
+    background-color: #ffffff;
+    color: black;
+    padding: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.box-card:hover{
+    background-color: #d3071f;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate3d(0px, -15px, 0.01px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-in-out;
+}
+.box-card:hover .icon-color{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.ps-sticky{
+    position: sticky;
+    z-index: 999;
+}
